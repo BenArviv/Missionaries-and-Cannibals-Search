@@ -2,7 +2,7 @@ import util
       
 
 def breadthFirstSearch(problem):
-    """Search the shallowest nodes in the search tree first."""
+    "Search the shallowest nodes in the search tree first."
     
     frontier = util.Queue() # Queue of (nodes, depth, path) triples
     reached = [] # list of nodes that have been reached
